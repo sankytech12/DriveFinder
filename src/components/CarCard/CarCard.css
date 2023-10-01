@@ -1,0 +1,91 @@
+.container{
+    padding: 20px;
+    width: 450px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.image-container {
+    width: 100%; 
+    height: auto; 
+    overflow: hidden; 
+  }
+  
+  .fit-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    object-fit:cover; 
+  }
+  
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+
+  }
+  .car-title{
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: larger;
+  }
+  .car-year{
+    border: 2px dotted #ADD8E6;
+    border-radius: 15px;
+    padding: 5px 8px;
+  }
+
+  .car-description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-bottom: 0.5px solid;
+  }
+
+  .car-description svg{
+    color: #4eadcc;
+  }
+
+  .card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .price{
+    font-size: large;
+    font-weight: 500;
+  }
+  .btn-area{
+    display: flex;
+    gap: 20px;
+  }
+  .btn-area svg{
+    color: #4eadcc;
+    background-color: #cbe8f1;
+    padding: 10px;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn-area svg:hover{
+    background-color: #4eadcc;
+    color: #cbe8f1;
+  }
+  .rent-btn{
+    border: none;
+    border-radius: 12px;
+    padding: 0 18px;
+    background-color: #4eadcc;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .rent-btn:hover{
+    background-color: #35b6e1;
+  }

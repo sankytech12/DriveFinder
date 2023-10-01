@@ -1,0 +1,48 @@
+.car-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header{
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+    border-radius: 9px;
+    height: 50px;
+    padding-left: 20px;
+    transition: transform 0.3s; 
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.search input{
+    padding: 5px 10px;
+    background-color: inherit;
+    font-size: 12px;
+    border: none;
+}
+.search input:focus{
+    outline: none;
+}
+.search svg{
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.header a{
+    display: flex;
+    align-items: center;
+}
+a svg{
+    width: 14px;
+    height: 14px;
+}
